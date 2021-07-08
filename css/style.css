@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap');
+
+:root{
+    --color-sedans: hsl(31, 77%, 52%);
+    --color-suvs: hsl(184, 100%, 22%);
+    --color-luxury: hsl(179, 100%, 13%);
+    --color-blanco-principal: hsl(0, 0%, 95%);
+    --color-blamco-secundario: hsla(0, 0%, 100%, 0.75);
+}
+body{
+    background: var(--color-blanco-principal);
+    margin: 0;
+}
+.cont{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    display: flex;
+}
+.section{
+    color: var(--color-blanco-principal);
+    padding: 40px;
+    width: 230px;
+}
+
+.sedans{
+    background: var(--color-sedans);
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+}
+.suvs{
+    background: var(--color-suvs);
+}
+.luxury{
+    background: var(--color-luxury);
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.title{
+    font-family: 'Big Shoulders Display', cursive;
+}
+.paragraphs{
+    font-family: 'Lexend Deca', sans-serif;
+    color: var(--color-blamco-secundario);
+    line-height: 1.9;
+    margin-bottom: 60px;
+}
+
+.btn{
+    display: inline-block;
+    font-family: 'Lexend Deca', sans-serif;
+    background: var(--color-blanco-principal);
+    text-decoration: none;
+    padding: 8px 16px;
+    border-radius: 25px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -ms-border-radius: 25px;
+    -o-border-radius: 25px;
+    box-sizing: border-box;
+    border: 2px solid transparent;
+    transition: background .6s ease, border .6s ease;
+    -webkit-transition: background .6s ease, border .6s ease;
+    -moz-transition: background .6s ease, border .6s ease;
+    -ms-transition: background .6s ease, border .6s ease;
+    -o-transition: background .6s ease, border .6s ease;
+}
+
+.btn-sedans{
+    color: var(--color-sedans);
+}
+.btn-suvs{
+    color: var(--color-suvs);
+}
+.btn-luxury{
+    color: var(--color-luxury);
+}
+
+.btn-sedans:hover{
+    background: var(--color-sedans);
+    box-sizing: border-box;
+    border: 2px solid var(--color-blanco-principal);
+    color: var(--color-blanco-principal);
+}
+
+.btn-suvs:hover{
+    background: var(--color-suvs);
+    box-sizing: border-box;
+    border: 2px solid var(--color-blanco-principal);
+    color: var(--color-blanco-principal);
+}
+
+.btn-luxury:hover{
+    background: var(--color-luxury);
+    box-sizing: border-box;
+    border: 2px solid var(--color-blanco-principal);
+    color: var(--color-blanco-principal);
+}
