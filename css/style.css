@@ -102,7 +102,7 @@ body{
     color: var(--color-blanco-principal);
 }
 
-@media screen and (max-width: 1400px){
+@media screen and (max-width: 768px){
     .cont{
         height: auto;
     }
